@@ -4,7 +4,7 @@
 Portafolio de proyectos prácticos de ciencia de datos, desde la terminal hasta modelos predictivos.
 
 ---
-
+1
 ## Estructura del Portafolio
 
 | Fase | Carpeta | Estado | Descripción |
@@ -12,8 +12,8 @@ Portafolio de proyectos prácticos de ciencia de datos, desde la terminal hasta 
 | **Fase 0: Terminal & Entornos** | `fase-0-terminal/` | ✅ Completado | PowerShell 7, Oh My Posh, Fastfetch, Zoxide, Nerd Fonts |
 | | `fase-0-docker/` | ✅ Completado | Primer contenedor Docker, Dockerfile, volúmenes |
 | **Fase 1: Python Puro** | `fase-1-python/` | ✅ Completado | P3: Analizador de CSV sin Pandas, exportación a JSON |
-| | | 🔄 En progreso | P4: Agenda de Contactos CLI |
-
+| | | ✅ Completado | P3: Analizador CSV, P4: Agenda CLI |
+| | | 🔄 En progreso | P5: Limpieza de Datos con Pandas |
 ---
 
 ## Stack Tecnológico
