@@ -18,7 +18,8 @@ Portafolio de proyectos de ciencia de datos, desde la terminal hasta modelos pre
 
 \- \*\*P1.5:\*\* Docker — Primer contenedor Python
 
-
+volumes
+- **P2:** Git & GitHub — Control de versiones, ramas, portafolio en la nube
 
 \### Fase 1: Python Puro
 
