@@ -1,53 +1,58 @@
-\# Data Science Portfolio — Heberth Rojas
 
+# Portafolio de Ciencia de Datos — Heberth Rojas
 
+Portafolio de proyectos prácticos de ciencia de datos, desde la terminal hasta modelos predictivos.
 
-Portafolio de proyectos de ciencia de datos, desde la terminal hasta modelos predictivos.
+---
 
+## Estructura del Portafolio
 
+| Fase | Carpeta | Estado | Descripción |
+|:---|:---|:---|:---|
+| **Fase 0: Terminal & Entornos** | `fase-0-terminal/` | ✅ Completado | PowerShell 7, Oh My Posh, Fastfetch, Zoxide, Nerd Fonts |
+| | `fase-0-docker/` | ✅ Completado | Primer contenedor Docker, Dockerfile, volúmenes |
+| **Fase 1: Python Puro** | `fase-1-python/` | ✅ Completado | P3: Analizador de CSV sin Pandas, exportación a JSON |
+| | | 🔄 En progreso | P4: Agenda de Contactos CLI |
 
-\## Fases
+---
 
+## Stack Tecnológico
 
+- **Terminal:** PowerShell 7, Oh My Posh, Fastfetch, Zoxide
+- **Control de Versiones:** Git, GitHub CLI
+- **Contenedores:** Docker, WSL
+- **Lenguaje:** Python 3.12
+- **Entorno:** VS Code, Jupyter Lab
 
-\### Fase 0: Terminal \& Entornos
+---
 
-\- \*\*P0:\*\* Terminal estética con PowerShell 7, Oh My Posh, Fastfetch
+## Proyectos Completados
 
-\- \*\*P1:\*\* Script de limpieza automática (`limpieza.ps1`)
+### P0 — Terminal Estética
+Configuración profesional de terminal con prompt personalizado, info del sistema al inicio, navegación inteligente y fuentes con iconos.
 
-\- \*\*P1.5:\*\* Docker — Primer contenedor Python
+### P1 — Script de Limpieza Automática (`limpieza.ps1`)
+Organización automática de Downloads por tipo de archivo, eliminación segura de temporales viejos a la Papelera.
 
-volumes
-- **P2:** Git & GitHub — Control de versiones, ramas, portafolio en la nube
+### P1.5 — Docker: Primer Contenedor
+- Descarga de imágenes (`docker pull`)
+- Creación y ejecución de contenedores (`docker run`)
+- Montaje de volúmenes (`-v`)
+- Dockerfile para empaquetar aplicaciones
 
-\### Fase 1: Python Puro
+### P3 — Analizador de CSV con Python Nativo
+Lectura de CSV sin librerías externas, cálculo de totales por categoría, producto más vendido, ventas por ciudad, rating promedio, exportación a JSON.
 
-\- \*\*P3:\*\* Analizador de CSV sin Pandas (`analizador\_ventas.py`)
+---
 
+## Metodología
 
+- **Portafolio-first:** Cada proyecto es un entregable real subido a GitHub
+- **Rigor académico:** Basado en cursos de universidades top
+---
 
-\## Próximas fases
+## Autor
 
-\- Fase 2: Pandas \& Limpieza de Datos
-
-\- Fase 3: SQL \& Bases de Datos
-
-\- Fase 4: Visualización
-
-\- Fase 5: Machine Learning
-
-\- Fase 6: Estadística
-
-\- Fase 7: Proyecto Final + Digital Twin Oil \& Gas
-
-
-
-\---
-
-
-
-\*\*Autor:\*\* Heberth Rojas  
-
-\*\*Inicio:\*\* Agosto 2026
-
+**Heberth Rojas**  
+Floridablanca, Colombia  
+Estudiante de Ingeniería Industrial — en formación como Científico de Datos
