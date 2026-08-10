@@ -53,7 +53,20 @@ print("\n🌆 Ventas por ciudad:")
 for ciudad, total in sorted(ventas_por_ciudad.items(), key=lambda x: x[1], reverse=True):
     print(f"  {ciudad}: ${total:,.2f}")
 
-# 5. PROMEDIO DE RATING POR CATEGORÍA
+# 5, VENTAS POR METODOS DE PAGO
+ventas_por_metodo_de_pago = defaultdict(float)
+
+for venta in ventas:
+	metodo = venta['Payment']
+	total = float(venta['Total'])
+	ventas_por_metodo_de_pago[metodo] += total
+
+print("\n💳 ventas por metodo de pago:")
+for metodo, total in sorted(ventas_por_metodo_de_pago.items(), key=lambda x: x[1], reverse=True):
+	print(f" {metodo}: ${total:,.2f}")
+
+
+# 6. PROMEDIO DE RATING POR CATEGORÍA
 rating_por_categoria = defaultdict(list)
 
 for venta in ventas:
@@ -66,7 +79,7 @@ for categoria, ratings in rating_por_categoria.items():
     promedio = sum(ratings) / len(ratings)
     print(f"  {categoria}: {promedio:.2f}/10")
 
-# 6. EXPORTAR RESULTADOS A JSON
+# 7. EXPORTAR RESULTADOS A JSON
 resultados = {
     "total_transacciones": len(ventas),
     "ventas_por_categoria": dict(totales_por_categoria),
@@ -75,6 +88,7 @@ resultados = {
         "cantidad": cantidad_por_producto[producto_top]
     },
     "ventas_por_ciudad": dict(ventas_por_ciudad),
+    "ventas_por_metodo_de_pago": dict(ventas_por_metodo_de_pago),
     "rating_promedio_por_categoria": {
         cat: round(sum(vals)/len(vals), 2) for cat, vals in rating_por_categoria.items()
     }

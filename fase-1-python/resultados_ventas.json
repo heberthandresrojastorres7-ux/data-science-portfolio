@@ -17,6 +17,11 @@
     "Naypyitaw": 110568.70649999994,
     "Mandalay": 106197.67199999996
   },
+  "ventas_por_metodo_de_pago": {
+    "Ewallet": 109993.107,
+    "Cash": 112206.56999999995,
+    "Credit card": 100767.07200000006
+  },
   "rating_promedio_por_categoria": {
     "Health and beauty": 7.0,
     "Electronic accessories": 6.92,
