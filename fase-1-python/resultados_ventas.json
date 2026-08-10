@@ -1,0 +1,28 @@
+{
+  "total_transacciones": 1000,
+  "ventas_por_categoria": {
+    "Health and beauty": 49193.739000000016,
+    "Electronic accessories": 54337.531500000005,
+    "Home and lifestyle": 53861.91300000001,
+    "Sports and travel": 55122.826499999996,
+    "Food and beverages": 56144.844000000005,
+    "Fashion accessories": 54305.895
+  },
+  "producto_mas_vendido": {
+    "nombre": "Electronic accessories",
+    "cantidad": 971
+  },
+  "ventas_por_ciudad": {
+    "Yangon": 106200.3705000001,
+    "Naypyitaw": 110568.70649999994,
+    "Mandalay": 106197.67199999996
+  },
+  "rating_promedio_por_categoria": {
+    "Health and beauty": 7.0,
+    "Electronic accessories": 6.92,
+    "Home and lifestyle": 6.84,
+    "Sports and travel": 6.92,
+    "Food and beverages": 7.11,
+    "Fashion accessories": 7.03
+  }
+}
