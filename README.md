@@ -12,8 +12,8 @@ Portafolio de proyectos prácticos de ciencia de datos, desde la terminal hasta 
 | **Fase 0: Terminal & Entornos** | `fase-0-terminal/` | ✅ Completado | PowerShell 7, Oh My Posh, Fastfetch, Zoxide, Nerd Fonts |
 | | `fase-0-docker/` | ✅ Completado | Primer contenedor Docker, Dockerfile, volúmenes |
 | **Fase 1: Python Puro** | `fase-1-python/` | ✅ Completado | P3: Analizador de CSV sin Pandas, exportación a JSON |
-| | | ✅ Completado | P3: Analizador CSV, P4: Agenda CLI |
-| | | 🔄 En progreso | P5: Limpieza de Datos con Pandas |
+| | | ✅ Completado | P5: Limpieza de Datos con Pandas (S&P 500 Financials) |
+| | | 🔄 En progreso | P6: Análisis Exploratorio de Datos (EDA) |
 ---
 
 ## Stack Tecnológico
@@ -23,6 +23,7 @@ Portafolio de proyectos prácticos de ciencia de datos, desde la terminal hasta 
 - **Contenedores:** Docker, WSL
 - **Lenguaje:** Python 3.12
 - **Entorno:** VS Code, Jupyter Lab
+- **Data Science:** Pandas, NumPy, Matplotlib, Seaborn, Jupyter
 
 ---
 
@@ -43,6 +44,9 @@ Organización automática de Downloads por tipo de archivo, eliminación segura 
 ### P3 — Analizador de CSV con Python Nativo
 Lectura de CSV sin librerías externas, cálculo de totales por categoría, producto más vendido, ventas por ciudad, rating promedio, exportación a JSON.
 
+### P5: Limpieza de Datos con Pandas 
+Dataset S&P 500 Financials (503→486 empresas), tratamiento de NaN, feature engineering, categorización por tamaño y valuación.
+    
 ---
 
 ## Metodología
